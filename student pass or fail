@@ -1,0 +1,15 @@
+sno='1'
+a='lathasree'
+g='MECs'
+s1=57
+s2=45
+s3=65
+if s1>=35 and s2>=35 and s3>=35:
+    print('pass')
+else:
+    print('fail')
+    print(sno)
+    print(a)
+    print(g)
+    output:
+    pass
