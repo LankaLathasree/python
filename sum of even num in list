@@ -1,0 +1,10 @@
+list=[10,3,4,7,6]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+i
+        print("sum of even numbers=",sum)
+ output:
+ sum of even numbers= 10
+sum of even numbers= 14
+sum of even numbers= 20
