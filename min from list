@@ -1,0 +1,9 @@
+
+list=[12,221,35,445,5,6000]
+min=list[0]
+for i in list:
+    if i<min:
+       min=i
+print("mainimum value =",min)
+output:
+minimum value =5
