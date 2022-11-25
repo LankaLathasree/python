@@ -1,0 +1,12 @@
+a=[1,23,45,67,8]
+print("enter the element")
+b=int(input())
+if b in a:
+    print('yes')
+else:
+    print("no")
+output:
+enter the element
+54
+no
+> 
