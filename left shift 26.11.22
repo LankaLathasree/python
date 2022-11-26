@@ -1,0 +1,26 @@
+print('a value')
+a=int(input())
+print(a<<1)
+print(a<<2)
+print(a<<3)
+print(a<<4)
+print(a<<5)
+print(a<<6)
+print(a<<7)
+print(a<<8)
+print(a<<9)
+
+output:
+a value
+600
+1200
+2400
+4800
+9600
+19200
+38400
+76800
+153600
+307200
+614400
+> 
