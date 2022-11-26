@@ -1,0 +1,17 @@
+print(a&b values)
+a=int(input())
+b=int(input())
+c=a&b
+print(c)
+print(a|b)
+print(a^b)
+
+output:
+a value
+3
+b value
+4
+0
+7
+7
+> 
