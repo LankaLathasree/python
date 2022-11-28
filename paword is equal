@@ -1,0 +1,7 @@
+a='127wer'
+print('enter b')
+b=str(input())
+if a==b:
+    print('transcation is processed')
+else:
+    print('not prossed')
