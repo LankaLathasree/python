@@ -1,0 +1,10 @@
+bal=10000
+print('enter the amount')
+amt=int(input())
+print(amt)
+if amt>bal:
+    print('not prossed')
+    print(' please try again')
+else:
+    bal=bal-amt
+    print("the balence amout is=",bal)
