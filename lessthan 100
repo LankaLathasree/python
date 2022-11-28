@@ -1,0 +1,7 @@
+a=100
+print('enter b')
+b=int(input())
+if b<=a:
+    print('lessthan 100')
+else:
+    print('greaterthan100')
