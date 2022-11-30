@@ -1,0 +1,30 @@
+shampoo=25
+soap=25
+rice=1000
+mize=25
+drink=90
+cname=input('enter the name: ')
+cpno=input('enter the no: ')
+cadd=input('enter the addres: ')
+s=int(input('enter the no.of: '))
+so=int(input('enter the no.of saop: '))
+r=int(input('enter the no.of rice bags: '))
+m=int(input('enter the no.of mize bags: '))
+d=int(input('enter the no.of drink bottles: '))
+bill=(s*shampoo)+(so*soap)+(r*rice)+(m*mize)+(d*drink)
+if bill>5000:
+    tax=bill*15/100
+if bill>3000:
+    tax=bill*10/100
+if bill>2000:
+    tax=bill*5/100
+if bill>500:
+    tax=bill*2/100
+else:
+    print('no tax')
+print(cname)
+print(cpno)
+print(cadd)
+print(tax)
+bill=bill+tax
+print(bill)
