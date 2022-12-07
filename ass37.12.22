@@ -1,0 +1,15 @@
+def sumofnum(n):
+    s=0
+    while n!=0:
+        r=n%10
+        s=s+(r*r)
+        n=n//10
+    return s
+    
+n=int(input("enter the value of n"))
+while(n>9):
+    n=sumofnum(n)
+if n==1 and n==7:
+    print("hapyy number")
+else:
+    print("not a happy number")
