@@ -1,0 +1,15 @@
+n=int(input("entertne nuber"))
+t=n
+rev=0
+while(n>0):
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+if rev==t:
+    print(rev,"is a palendrom")
+else:
+    print(rev,"is not a palendrome")
+    
+output:
+    entertne nuber121
+    121 is a palendrom
