@@ -1,0 +1,24 @@
+def son(n):
+    s=0
+    while(n>0):
+        r=n%10
+        s=s+(r*r)
+        n=n//10
+        return s
+n=int(input("enter  the number"))
+while(n>9):
+    n=son(n)
+if n==1 or n==7:
+    print("HAPPY NUMBER")
+else:
+    print("NOT A HAPPY NUMBER")
+print("n value= ",n)
+OUTPUT:
+enter  the number7
+HAPPY NUMBER
+n value=  7
+> 
+enter  the number97
+HAPPY NUMBER
+n value=  1
+> 
