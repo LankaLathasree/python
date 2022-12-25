@@ -1,0 +1,15 @@
+a=int(input("enter  the a"))
+b=int(input("enter the b"))
+c=0
+for i in range(a,b+1):
+    if i%4==0 and i%100!=0:
+        c=c+1
+        print(i,end=' ')
+print("\nTHE  NO.OF LEAPYEARS",c)
+
+output:
+enter  the a2000
+enter the b2022
+2004 2008 2012 2016 2020 
+THE  NO.OF LEAPYEARS 5
+> 
