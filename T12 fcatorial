@@ -1,0 +1,12 @@
+a= int(input("enteer the value "))
+fact=1
+for i in range(1,a+1):
+    fact=fact*i
+print("tha factorial is: ",fact)
+output
+enteer the value 5
+tha factorial is:  120
+
+enteer the value 7
+tha factorial is:  5040
+> 
