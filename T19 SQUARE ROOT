@@ -1,0 +1,10 @@
+import math
+print(" The Square root of 4.5 is", math.sqrt(9)) 
+print(" The Square root of 627 is", math.sqrt(625)) 
+print(" The Square root of 6.25 is", math.sqrt(6.25)) 
+print(" The Square root of 0 is", math.sqrt(1234)) 
+0UTPUT:
+The Square root of 4.5 is 3.0
+ The Square root of 627 is 25.0
+The Square root of 6.25 is 2.5
+ The Square root of 0 is 35.12833614050059
