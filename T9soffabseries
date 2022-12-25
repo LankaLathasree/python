@@ -1,0 +1,22 @@
+n=int(input("enter the range"))
+a=0
+b=1
+s=0
+print(a,end='   ')
+print(b,end='   ')
+for n in range(1,n+1):
+    c=a+b
+    a=b
+    b=c
+    s=s+a
+    print(c,end='   ')
+print("\nTHE SUM OF SREIES:  ",s)
+OUTPUT:
+enter the range4
+0   1   1   2   3   5   
+THE SUM OF SREIES:   7
+
+enter the range8
+0   1   1   2   3   5   8   13   21   34   
+THE SUM OF SREIES:   54
+> 
