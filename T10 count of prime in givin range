@@ -1,0 +1,20 @@
+def isp(n):
+    c=0
+    for i in range(1,n+1):
+        if n%i==0:
+            c=c+1
+    return c
+a=int(input("enter the lw limit"))
+b=int(input("entern the up limit"))
+pc=0
+for i in range(a,b+1):
+    if isp(i)==2:
+        pc=pc+1
+        print(i,end=' ')
+print('\nprime count\n : ',pc)
+OUTPUT:
+enter the lw limit2
+entern the up limit20
+2 3 5 7 11 13 17 19 
+prime count
+ :  8
