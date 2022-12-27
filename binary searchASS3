@@ -1,0 +1,20 @@
+n=int(input("enter the no.of elments"))
+l=list(map(int,input().split()))
+a=int(input("enter the searching element"))
+low=0
+h=n-1
+f=0
+mid=(low+h)//2
+while h>=low:
+    if a>=l[mid]:
+        low=mid+1
+    elif a==l[mid]:
+        f=1
+        break
+    else:
+        h=mid-1
+    mid=(low+h)//2
+if f==0:
+    print("element is found at",mid,'index location')
+else:
+    print(a,"element is not found")
