@@ -1,0 +1,14 @@
+l=[]
+n=int(input("enter no.of elemnts"))
+l=list(map(int,input().split()))
+a=int(input("neter the element to found"))
+if a in l:
+    print("element is found")
+else:
+    print("element is not found")
+    
+    OUTPUT:
+    enter no.of elemnts5
+23 45 87 4 0
+neter the element to found4
+element is found
