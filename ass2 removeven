@@ -1,0 +1,11 @@
+n=int(input("enter"))
+l=[]
+t=()
+for i in range(n):
+    x=int(input("e"))
+    l.append(x)
+for i in range(0,n):
+    if l[i]%2==0:
+        a=l[i]
+        del[a]
+        print(l)
