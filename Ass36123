@@ -1,0 +1,16 @@
+email=input()
+if email.endswith("@gmail.com") or email.endswith("@yahoo.com") or email.endswith("@adc.aditya.ac.in"):
+    print("Valid Email id")
+else:
+    print("Invalid Email ")
+phno=input()
+c=0#9
+f=int(phno[0:2])
+for i in phno:
+    if i.isdigit():
+        c=c+1
+if c==11 and f>5 and phno[0]=='0':
+    print('regidterd successful')
+else:
+    print('check your details')
+   
