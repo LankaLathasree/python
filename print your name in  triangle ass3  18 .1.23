@@ -1,0 +1,6 @@
+s=str(input("es"))
+l=len(s)
+for r in range(l):
+    for c in range(r+1):
+        print(s[c],end=' ')
+    print()
