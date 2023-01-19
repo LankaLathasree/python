@@ -1,0 +1,12 @@
+s=input("enter")
+res=' '
+n=len(s)
+c=int(input("enter"))
+for i in range(0,n):
+    for j in range(0,c):
+        res=res+s[i]
+print(res)
+OUTPUT:
+enterLanka Latha Sree
+enter2
+LLaannkkaa  LLaatthhaa  SSrreeee
