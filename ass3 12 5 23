@@ -1,0 +1,18 @@
+class Solution:
+  
+    def equilibriumPoint(self,A, N):
+       pos=0
+       pres=0
+       left=0
+       right=n-1
+       while left<right:
+           if pos==pres and left==right:
+               return left+1
+           if pres<pos:
+                pres+=A[left]
+                left+=1
+           else:
+                pos+=a[right]
+                right-=1
+        return -1
+
