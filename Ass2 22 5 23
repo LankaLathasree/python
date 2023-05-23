@@ -1,0 +1,5 @@
+class Solution:
+def hamming(self,n:int):
+s=str(n)
+l=list (s)
+return l.count('1')
